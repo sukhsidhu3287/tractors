@@ -27,7 +27,7 @@ background-repeat: repeat;
 position: absolute;
 margin-top: 60vh;
 animation: move linear 6s infinite;
-animation-delay: 1s;
+animation-delay: 6s;
 }
 .tractor{
 height: 45vh;
@@ -37,21 +37,21 @@ background-size: contain;
 position: absolute;
 margin-top: 28vh;
 animation: shake linear 1s infinite;
-animation-delay: 1s;
+animation-delay: 4s;
 }
 .tyre1 img {
 width: 27vh;
 position: absolute;
 margin: 15vh -25vh -1vh 1vh;
 animation: tyrerotate linear 1s infinite ;
-animation-delay: 1s;
+animation-delay: 5s;
 }
 .tyre2 img {
 width: 20vh;
 position: absolute;
 margin: 21.8vh -61vh 13vh 38.5vh;
 animation: tyrerotate linear 1s infinite;
-animation-delay: 1s;
+animation-delay: 5s;
 }
 @keyframes tyrerotate{
 100%{
