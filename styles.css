@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    overflow: hidden;
+    background-color: black;
+    
+}
+figure {
+    margin: 0;
+}
+.moon {
+height: 17vh;
+width: 17vh;
+background-color: white;
+border-radius: 50%;
+display: inline-block;
+margin: 3vh -3vh 4vh 140vh;
+}
+.back{
+height: 30vh;
+width: 500vh;
+background-image: url(images/road3.jpg);
+background-repeat: repeat;
+position: absolute;
+margin-top: 60vh;
+animation: move linear 6s infinite;
+animation-delay: 1s;
+}
+.tractor{
+height: 45vh;
+width: 65vh;
+background-image: url(images/tractor2.png);
+background-size: contain;
+position: absolute;
+margin-top: 28vh;
+animation: shake linear 1s infinite;
+animation-delay: 1s;
+}
+.tyre1 img {
+width: 27vh;
+position: absolute;
+margin: 15vh -25vh -1vh 1vh;
+animation: tyrerotate linear 1s infinite ;
+animation-delay: 1s;
+}
+.tyre2 img {
+width: 20vh;
+position: absolute;
+margin: 21.8vh -61vh 13vh 38.5vh;
+animation: tyrerotate linear 1s infinite;
+animation-delay: 1s;
+}
+@keyframes tyrerotate{
+100%{
+    transform: rotate(360deg);
+}
+}
+@keyframes move{
+100%{
+    transform: translateX(-300vh);
+}
+}
+@keyframes shake{
+0%{
+    transform: translatey(0px);
+}
+50%{transform: translatey(5px);}
+100%{
+    transform: translatey(0px);
+}
+}
+button{
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: 23px;
+    background-color: red;
+    padding: 5px;
+    margin: 4px;
+}
